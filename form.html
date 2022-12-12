@@ -19,9 +19,10 @@
 <table border="0">
     <td>
         <a href="index.html">Home</a>
-        <a href="index.html">League Videos</a>
-        <a href="index.html">Practice Sessions</a>
-        <a href="index.html">Open Play</a>
+        <a href="/pages/league.html">League Videos</a>
+        <a href="/pages/practice.html">Practice Sessions</a>
+        <a href="/pages/open.html">Open Play</a>
+        <a href="form.html">Upload Video</a>
     </td>
     <tr>
         <td>
@@ -35,6 +36,73 @@
 
     </tr>
 </table>
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Work Survey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<header><p><h1>
+    Employee Interests Survey Form 
+    </h1></p></header>
+
+<form action="">
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name" required><br><br>
+
+    <label for="dept">Department:</label>
+    <input id="dept" type="text" name="dept" required><br><br>
+
+    <label for="about">Tell us about yourself:</label><br>
+    <textarea id="about" rows="8" cols="35"></textarea><br><br>
+
+    Do you exercise at home?
+    <label for="exercise">Yes</label>
+    <input type="radio" name="exercise" id="yes" value="yes"> 
+    
+    <label for="exercise">No</label>
+    <input type="radio" name="exercise" id="no" value="no"><br><br>
+
+    How do you prefer to consume media?<br>
+    <label for="TV">TV</label>
+    <input type="checkbox" id="TV">
+    <label for="books">Books</label>
+    <input type="checkbox" id="books">
+    <label for="pods">Podcasts</label>
+    <input type="checkbox" id="pods">
+    <label for="stream">Streaming</label>
+    <input type="checkbox" id="stream"><br><br>
+
+    <label for="moviedrop">What is your favorite movie genre?</label>
+    <input list="moviedrop">
+    <datalist id="moviedrop">
+    <option value="Action">
+    <option value="Horror">
+    <option value="Romance">
+    <option value="Mystery">
+    <option value="Fantasy">
+            </datalist><br><br>
+
+    <input type="submit" value="Submit responses" id="send">
+</form>
+
+    
+    </body>
+</html>
         
 <hr>       
 <footer>&copy: Copyright"</footer>
